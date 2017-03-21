@@ -4,6 +4,7 @@ import random
 # Making the file a constant
 FILE = 'soccer_players.csv'
 
+# Returns a tuple with all the players from the csv separated by experience
 def get_players():
 
 	with open(FILE, newline='') as csvfile:
